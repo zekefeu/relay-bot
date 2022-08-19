@@ -1,0 +1,8 @@
+#node_modules
+src/**/*.ts
+tsconfig.json
+Dockerfile
+.dockerignore
+.gitignore
+.eslint*
+.env.*

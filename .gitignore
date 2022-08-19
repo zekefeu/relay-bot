@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+README.md
+src/**/*.js
+src/package.json
+.env*
+!.env.example
