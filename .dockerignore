@@ -2,6 +2,7 @@
 src/**/*.ts
 tsconfig.json
 Dockerfile
+README.md
 .dockerignore
 .gitignore
 .eslint*
