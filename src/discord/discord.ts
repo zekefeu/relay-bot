@@ -8,6 +8,7 @@ const client = new discordjs.Client({
 	intents: [
 		discordjs.GatewayIntentBits.Guilds,
 		discordjs.GatewayIntentBits.GuildMessages,
+		discordjs.GatewayIntentBits.MessageContent
 	],
 });
 
