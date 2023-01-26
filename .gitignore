@@ -5,3 +5,4 @@ src/**/*.js
 src/package.json
 .env*
 !.env.example
+.yarn
