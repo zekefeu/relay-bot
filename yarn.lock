@@ -1876,13 +1876,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.6":
-  version: 1.2.6
-  resolution: "minimist@npm:1.2.6"
-  checksum: d15428cd1e11eb14e1233bcfb88ae07ed7a147de251441d61158619dfb32c4d7e9061d09cab4825fdee18ecd6fce323228c8c47b5ba7cd20af378ca4048fb3fb
-  languageName: node
-  linkType: hard
-
 "minipass-collect@npm:^1.0.2":
   version: 1.0.2
   resolution: "minipass-collect@npm:1.0.2"
@@ -1971,10 +1964,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"module-alias@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "module-alias@npm:2.2.2"
-  checksum: 4b5543f834b484033e5bd184096ca8276b9195e32e88883ee6ea8d3a4789d97c470d26f5fa7271bd7a26588bf67e4d27dbdb594ee327aef1c9619d855dc78342
+"mri@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "mri@npm:1.2.0"
+  checksum: 83f515abbcff60150873e424894a2f65d68037e5a7fcde8a9e2b285ee9c13ac581b63cfc1e6826c4732de3aeb84902f7c1e16b7aff46cd3f897a0f757a894e85
   languageName: node
   linkType: hard
 
@@ -2306,7 +2299,7 @@ __metadata:
     dotenv: ^16.0.1
     eslint: ^8.22.0
     prettier: ^2.7.1
-    telegraf: ^4.8.6
+    telegraf: ^4.11.2
     typescript: ^4.7.4
     vitest: ^0.22.1
     winston: ^3.8.1
@@ -2626,22 +2619,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"telegraf@npm:^4.8.6":
-  version: 4.8.6
-  resolution: "telegraf@npm:4.8.6"
+"telegraf@npm:^4.11.2":
+  version: 4.11.2
+  resolution: "telegraf@npm:4.11.2"
   dependencies:
     abort-controller: ^3.0.0
-    debug: ^4.3.3
-    minimist: ^1.2.6
-    module-alias: ^2.2.2
+    debug: ^4.3.4
+    mri: ^1.2.0
     node-fetch: ^2.6.7
     p-timeout: ^4.1.0
     safe-compare: ^1.1.4
     sandwich-stream: ^2.0.2
-    typegram: ^3.9.0
+    typegram: ^4.1.0
   bin:
-    telegraf: bin/telegraf
-  checksum: 0a5724345e3bf9aa1ae704cb13de777d4c9246e8b989124016b8d78d6f4a385e8f59c1cf21370627b2d4a19e1cb67bbcee709975c9d694fd4839c8b9c6d4536b
+    telegraf: lib/cli.mjs
+  checksum: 81662e6fe37258a40317a3fcd8b1e4f8e04439b12ef8387bcaccaea4163bb9f5eb7534a311a524e59320f975e34dacfc0d34425b10269aed13d98b9f3ae05aa2
   languageName: node
   linkType: hard
 
@@ -2761,10 +2753,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typegram@npm:^3.9.0":
-  version: 3.10.0
-  resolution: "typegram@npm:3.10.0"
-  checksum: 719f32995bc875afd302cc2795499917c1c5631a6e124d5432fae66197a2e70f7b5812000af2eb7e5717cd3e171f90adc3adcab3acfafcd921f5c681d9938509
+"typegram@npm:^4.1.0":
+  version: 4.2.0
+  resolution: "typegram@npm:4.2.0"
+  checksum: 75f5dd9b9ab63c969aea66279e8ee58bff50b23a068c633371eb044faaa7c58c6aac448103171609480814f5995d5d7ec88d45035b8ababbeb9db635ac5a1025
   languageName: node
   linkType: hard
 

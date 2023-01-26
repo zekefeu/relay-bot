@@ -6,6 +6,7 @@
     "watch": true,
     "rootDir": "src",
     "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "skipLibCheck": true
   }
 }
